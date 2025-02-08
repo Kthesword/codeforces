@@ -1,0 +1,9 @@
+n, h = map(int, input().split())
+li = list(map(int, input().split()))
+w = 0
+for p in li:
+    if p <= h:
+        w += 1
+    else:
+        w += 2
+print(w)
