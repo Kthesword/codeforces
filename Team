@@ -1,0 +1,7 @@
+no_qs = int(input())
+cnt = 0
+for q in range(no_qs):
+	c, v, s = map(int, input().split()) 
+	if c+v+s >= 2:
+		cnt += 1
+print (cnt) 
