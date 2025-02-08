@@ -1,0 +1,10 @@
+a, b = map(int, input().split())
+wl = a*3
+wb = b*2
+cnt = 1
+c = True
+while wb >= wl: 
+    wl *= 3
+    wb *= 2
+    cnt += 1
+print(cnt)
