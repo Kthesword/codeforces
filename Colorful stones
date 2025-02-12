@@ -1,0 +1,10 @@
+l1=list(input())
+s2=list(input())
+s=1
+for i in s2:
+    if l1[0]==i:
+        l1.pop(0)
+        s+=1
+    else:
+        continue
+print(s)
