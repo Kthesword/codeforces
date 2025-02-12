@@ -1,0 +1,8 @@
+w = [int(x) for x in input().split()]
+k = w[0]
+r = w[1]
+j = 1
+while k%10 != 0 and k%10 != r:
+    k = k + w[0]
+    j = j +1
+print(j)
