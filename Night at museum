@@ -1,0 +1,8 @@
+s=input()
+c='a'
+res=0
+for i in s:
+   diff=abs(ord(i)-ord(c))
+   res+=min(diff,26-diff)
+   c=i
+print(res)
