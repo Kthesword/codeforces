@@ -1,0 +1,6 @@
+magn = [input() for i in range(int(input()))]
+cnt = 1
+for i in range(len(magn)-1):
+    if magn[i] != magn[i+1]:
+        cnt += 1
+print(cnt)
